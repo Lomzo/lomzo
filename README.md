@@ -4,7 +4,7 @@ Lomzo - is an open source toolkit for developing with HTML, CSS, and JS.
 
 ## Ссылки
 
-- [Домашняя страница плагина](https://github.com/Lomzo/lomzo/)
+- [Home page](https://github.com/Lomzo/lomzo/)
 
 ## Лицензия
 
