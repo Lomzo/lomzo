@@ -5,6 +5,7 @@ Lomzo Framework - is an open source toolkit for developing with HTML, CSS, and J
 ## Links
 - [Home page](https://lomzo.github.io/)
 - [Examples](https://lomzo.github.io/examples/)
+- [Demo](https://lomzo.github.io/demo/)
 
 ## License
 [MIT License](https://github.com/Lomzo/lomzo/blob/master/LICENSE)
