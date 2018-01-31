@@ -1,4 +1,4 @@
-# Lomzo Framework <sup>[0.1](https://github.com/Lomzo/lomzo/blob/master/CHANGELOG.md)</sup>
+# Lomzo Framework <sup>[ver 0.1](https://github.com/Lomzo/lomzo/blob/master/CHANGELOG.md)</sup>
 
 Lomzo Framework - is an open source toolkit for developing with HTML, CSS, and JS.
 
