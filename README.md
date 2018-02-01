@@ -1,16 +1,21 @@
-# Lomzo Framework <sup>[ver 0.1](https://github.com/Lomzo/lomzo/blob/master/CHANGELOG.md)</sup>
+# Lomzo <sup>[ver 0.1PA][download]</sup>
 
-Lomzo Framework - is an open source toolkit for developing with HTML, CSS, and JS.
+Lomzo - is an open source HTML, CSS, and JavaScript framework for developing responsive, mobile  projects on the web.
 
 ***
 
 ## Links
+- **[Download Lomzo][download]** - (ver 0.1PA)
 - [Home page](https://lomzo.github.io/)
 - [Examples](https://lomzo.github.io/examples/)
 - [Demo](https://lomzo.github.io/demo/)
-- **[Download](https://github.com/Lomzo/lomzo/archive/master.zip)**
+- [Changelog](https://github.com/Lomzo/lomzo/blob/master/CHANGELOG.md)
 
 ***
 
 ## License
-[MIT License](https://github.com/Lomzo/lomzo/blob/master/LICENSE)
+- Code released under the [MIT License](https://github.com/Lomzo/lomzo/blob/master/LICENSE) <br />
+- Docs released under [Creative Commons](https://github.com/Lomzo/lomzo/blob/master/LICENSE)
+
+
+[download]: https://github.com/Lomzo/lomzo/archive/master.zip "ver 0.2PA(Pre-alpha)"
