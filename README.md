@@ -15,7 +15,7 @@ Lomzo - is an open source HTML, CSS, and JavaScript framework for developing res
 
 ## License
 - Code released under the [MIT License](https://github.com/Lomzo/lomzo/blob/master/LICENSE) <br />
-- Docs released under [Creative Commons](https://github.com/Lomzo/lomzo/blob/master/LICENSE)
+- Docs released under [Creative Commons](https://github.com/Lomzo/lomzo/blob/master/docs/LICENSE)
 
 
 [download]: https://github.com/Lomzo/lomzo/archive/master.zip "ver 0.2PA(Pre-alpha)"
