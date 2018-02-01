@@ -1,4 +1,4 @@
-# Lomzo <sup>[ver 0.1PA][download]</sup>
+# Lomzo <sup>[0.1PA][download]</sup>
 
 Lomzo - is an open source HTML, CSS, and JavaScript framework for developing responsive, mobile  projects on the web.
 
