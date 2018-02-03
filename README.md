@@ -8,7 +8,7 @@ Lomzo - is an open source HTML, CSS, and JavaScript framework for developing res
 - **[Download Lomzo][download]** - (ver 0.1PA)
 - [Home page](https://lomzo.github.io/lomzo/)
 - [Examples](https://lomzo.github.io/lomzo/examples/)
-- [Demo](https://lomzo.github.io/lomzo/lomzo/demo/)
+- [Demo](https://lomzo.github.io/lomzo/demo/)
 - [Changelog](https://github.com/Lomzo/lomzo/blob/master/CHANGELOG.md)
 
 ***
