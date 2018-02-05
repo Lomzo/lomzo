@@ -6,4 +6,9 @@
 
 ## 0.2PA <sup>05.02.2018</sup>
 
-- added reset and headline style.
+- added reset
+- added headline style
+
+## 0.21PA <sup>05.02.2018</sup>
+
+- added text color

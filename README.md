@@ -1,11 +1,11 @@
-# Lomzo <sup>[0.2PA][download]</sup>
+# Lomzo <sup>[0.21PA][download]</sup>
 
 Lomzo - is an open source HTML, CSS, and JavaScript framework for developing responsive, mobile  projects on the web.
 
 ***
 
 ## Links
-- **[Download Lomzo][download]** - (ver 0.2PA)
+- **[Download Lomzo][download]** - (ver 0.21PA)
 - [Home page](https://lomzo.github.io/lomzo/)
 - [Examples](https://lomzo.github.io/lomzo/manual/)
 - [Demo](https://lomzo.github.io/lomzo/demo/)
@@ -18,4 +18,4 @@ Lomzo - is an open source HTML, CSS, and JavaScript framework for developing res
 - Docs released under [Creative Commons](https://github.com/Lomzo/lomzo/blob/master/docs/LICENSE.md)
 
 
-[download]: https://github.com/Lomzo/lomzo/archive/master.zip "ver 0.2PA(Pre-alpha)"
+[download]: https://github.com/Lomzo/lomzo/archive/master.zip "ver 0.21PA(Pre-alpha)"
