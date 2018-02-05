@@ -39,3 +39,26 @@ p, *.p {margin: 0.4rem 0;}
 
 .small {font-size: 0.85rem;}
 .micro {font-size: 0.7rem;}
+
+
+/* text color (tColor) */
+.tBlack{color: #000;}
+.tWhite{color: #FFF;}
+.tBrown{color: #795548;}
+.tGrey{color: #9E9E9E;}
+.tBlueGrey{color: #607D8B;}
+.tBlue{color: #2196F3;}
+.tCyan{color: #00BCD4;}
+.tTeal{color: #009688;}
+.tGreen{color: #4CAF50;}
+.tLightGreen{color: #8BC34A;}
+.tLime{color: #CDDC39;}
+.tYellow{color: #FFEB3B;}
+.tAmber{color: #FFC107;}
+.tOrange{color: #FF9800;}
+.tDeepOrange{color: #FF5722;}
+.tRed{color: #F44336;}
+.tPink{color: #E91E63;}
+.tPurple{color: #9C27B0;}
+.tDeepPurple{color: #673AB7;}
+.tIndigo{color: #3F51B5;}
