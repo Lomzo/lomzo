@@ -26,19 +26,32 @@ html, body {font: 16px/1.6 "Roboto", sans-serif;}
 /* headline */
 h1, h2, h3, 
 h4, h5, h6,
-*.h1, *.h2, *.h3, 
-*.h4, *.h5, *.h6 {font-weight: bold; margin: 0.15em 0 0.15em; font-weight: 400;}
-h1, *.h1 {font-size: 4.135rem; line-height: 1;}
-h2, *.h2 {font-size: 3.55rem; line-height: 1.05;}
-h3, *.h3 {font-size: 3rem; line-height: 1.1;}
-h4, *.h4 {font-size: 2.5rem; line-height: 1.15;}
-h5, *.h5 {font-size: 2.075rem; line-height: 1.2;}
-h6, *.h6 {font-size: 1.7rem; line-height: 1.25;}
+.h1, .h2, .h3, 
+.h4, .h5, .h6 {font-weight: bold; margin: 0.15em 0 0.15em; font-weight: 400;}
+h1, .h1 {font-size: 4.135rem; line-height: 1;}
+h2, .h2 {font-size: 3.55rem; line-height: 1.05;}
+h3, .h3 {font-size: 3rem; line-height: 1.1;}
+h4, .h4 {font-size: 2.5rem; line-height: 1.15;}
+h5, .h5 {font-size: 2.075rem; line-height: 1.2;}
+h6, .h6 {font-size: 1.7rem; line-height: 1.25;}
 
-p, *.p {margin: 0.4rem 0;}
+p, .p {margin: 0.4rem 0;}
 
-.small {font-size: 0.85rem;}
-.micro {font-size: 0.7rem;}
+.bFont {font-size: 1.15rem;}    /* big font */
+.sFont {font-size: 0.85rem;}    /* small font */
+.mFont {font-size: 0.7rem;}     /* micro font */
+
+/* font weight (fW) */
+.fW100 {font-weight: 100;}
+.fW300 {font-weight: 300;}
+.fW400, .bold {font-weight: 400;}
+.fW500 {font-weight: 500;}
+.fW700 {font-weight: 700;}
+.fW900 {font-weight: 900;}
+
+/* font style */
+.italic {font-style: italic;}
+.normal {font-style: normal;}
 
 
 /* text color (tColor) */
