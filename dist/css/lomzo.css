@@ -14,20 +14,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, bl
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 ol, ul, li {list-style: none;}
 blockquote, q {quotes: none;}
-blockquote:before, blockquote:after, q:before, q:after {content: none;}
+blockquote:before, blockquote:after, 
+q:before, q:after {content: none;}
 table {border-collapse: collapse; border-spacing: 0;}
 b, strong {font-weight: 600;}
 *, *:before, *:after {box-sizing: border-box;}
 ::selection {color: #fff; background: rgba(0,0,0,0.5);}
 ::-moz-selection {color: #fff; background: rgba(0,0,0,0.5);}
 
-html, body {font: 16px/1.6 "Roboto", sans-serif;}
+html, body {font: 16px/1.6 "Roboto", sans-serif; color: #303030; background: #fff;}
+
 
 /* headline */
-h1, h2, h3, 
-h4, h5, h6,
-.h1, .h2, .h3, 
-.h4, .h5, .h6 {font-weight: bold; margin: 0.15em 0 0.15em; font-weight: 400;}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {font-weight: bold; margin: 1.15em 0 0.15em; font-weight: bold;}
 h1, .h1 {font-size: 4.135rem; line-height: 1;}
 h2, .h2 {font-size: 3.55rem; line-height: 1.05;}
 h3, .h3 {font-size: 3rem; line-height: 1.1;}
@@ -35,43 +35,67 @@ h4, .h4 {font-size: 2.5rem; line-height: 1.15;}
 h5, .h5 {font-size: 2.075rem; line-height: 1.2;}
 h6, .h6 {font-size: 1.7rem; line-height: 1.25;}
 
-/* paragraph style */
-p, .p {margin: 0.4rem 0;}
-.bFont {font-size: 1.15rem;}    /* big font */
-.sFont {font-size: 0.85rem;}    /* small font */
-.mFont {font-size: 0.7rem;}     /* micro font */
+
+/* block style */
+p, .p {margin: 0.4rem 0 1rem;}
+.center{text-align: center;}
+.left{text-align: left;}
+.right{text-align: right;}
+
+
+/* font size EM */
+.hugeFont {font-size: 1.3em;}
+.bigFont {font-size: 1.15em;}
+.normalFont {font-size: 1em;}
+.smallFont {font-size: 0.85em;}
+.microFont {font-size: 0.7em;}
+
+/* font size REM */
+.fS5 {font-size: 1.5rem;}
+.fS4 {font-size: 1.4rem;}
+.fS3 {font-size: 1.3rem;}
+.fS2 {font-size: 1.2rem;}
+.fS1 {font-size: 1.1rem;}
+.fS0, .fS-0 {font-size: 1rem;}
+.fS-1 {font-size: 0.9rem;}
+.fS-2 {font-size: 0.8rem;}
+.fS-3 {font-size: 0.7rem;}
+.fS-4 {font-size: 0.6rem;}
+.fS-5 {font-size: 0.5rem;}
+
 
 /* font weight (fW) */
 .fW100 {font-weight: 100;}
 .fW300 {font-weight: 300;}
-.fW400, .bold {font-weight: 400;}
+.fW400, .normal {font-weight: 400;}
 .fW500 {font-weight: 500;}
-.fW700 {font-weight: 700;}
+.fW700, .bold {font-weight: 700;}
 .fW900 {font-weight: 900;}
+
 
 /* font style */
 .italic {font-style: italic;}
 .normal {font-style: normal;}
 
 
-/* text color (tColor) */
-.tBlack{color: #000;}
-.tWhite{color: #FFF;}
-.tBrown{color: #795548;}
-.tGrey{color: #9E9E9E;}
-.tBlueGrey{color: #607D8B;}
-.tBlue{color: #2196F3;}
-.tCyan{color: #00BCD4;}
-.tTeal{color: #009688;}
-.tGreen{color: #4CAF50;}
-.tLightGreen{color: #8BC34A;}
-.tLime{color: #CDDC39;}
-.tYellow{color: #FFEB3B;}
-.tAmber{color: #FFC107;}
-.tOrange{color: #FF9800;}
-.tDeepOrange{color: #FF5722;}
-.tRed{color: #F44336;}
-.tPink{color: #E91E63;}
-.tPurple{color: #9C27B0;}
-.tDeepPurple{color: #673AB7;}
-.tIndigo{color: #3F51B5;}
+/* text color (tcColor) */
+.tcBlack {color: #000;}
+.tcWhite {color: #FFF;}
+.tcBrown {color: #795548;}
+.tcGrey {color: #9E9E9E;}
+.tcBlueGrey {color: #607D8B;}
+.tcBlue {color: #2196F3;}
+.tcCyan {color: #00BCD4;}
+.tcTeal {color: #009688;}
+.tcGreen {color: #4CAF50;}
+.tcLightGreen {color: #8BC34A;}
+.tcLime {color: #CDDC39;}
+.tcYellow {color: #FFEB3B;}
+.tcAmber {color: #FFC107;}
+.tcOrange {color: #FF9800;}
+.tcDeepOrange {color: #FF5722;}
+.tcRed {color: #F44336;}
+.tcPink {color: #E91E63;}
+.tcPurple {color: #9C27B0;}
+.tcDeepPurple {color: #673AB7;}
+.tcIndigo {color: #3F51B5;}
