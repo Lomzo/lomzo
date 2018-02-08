@@ -22,10 +22,10 @@ b, strong {font-weight: 600;}
 ::selection {color: #fff; background: rgba(0,0,0,0.5);}
 ::-moz-selection {color: #fff; background: rgba(0,0,0,0.5);}
 
-html, body {font: 16px/1.6 "Roboto", sans-serif; color: #303030; background: #fff;}
+html, body {font: 16px/1.6 "Roboto", sans-serif; color: #202020; background: #fff;}
 
 
-/* headline */
+/* headline style */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {font-weight: bold; margin: 1.15em 0 0.15em; font-weight: bold;}
 h1, .h1 {font-size: 4.135rem; line-height: 1;}
@@ -36,21 +36,23 @@ h5, .h5 {font-size: 2.075rem; line-height: 1.2;}
 h6, .h6 {font-size: 1.7rem; line-height: 1.25;}
 
 
-/* block style */
+/* paragraph */
 p, .p {margin: 0.4rem 0 1rem;}
-.center{text-align: center;}
-.left{text-align: left;}
-.right{text-align: right;}
+
+/* block align */
+.center, [align="center"]{text-align: center;}
+.left, [align="left"]{text-align: left;}
+.right, [align="right"]{text-align: right;}
 
 
-/* font size EM */
+/* font size (EM) */
 .hugeFont {font-size: 1.3em;}
 .bigFont {font-size: 1.15em;}
 .normalFont {font-size: 1em;}
 .smallFont {font-size: 0.85em;}
 .microFont {font-size: 0.7em;}
 
-/* font size REM */
+/* font size (REM) */
 .fS5 {font-size: 1.5rem;}
 .fS4 {font-size: 1.4rem;}
 .fS3 {font-size: 1.3rem;}
@@ -64,7 +66,7 @@ p, .p {margin: 0.4rem 0 1rem;}
 .fS-5 {font-size: 0.5rem;}
 
 
-/* font weight (fW) */
+/* font weight (.fW"Num") */
 .fW100 {font-weight: 100;}
 .fW300 {font-weight: 300;}
 .fW400, .normal {font-weight: 400;}
@@ -78,7 +80,7 @@ p, .p {margin: 0.4rem 0 1rem;}
 .normal {font-style: normal;}
 
 
-/* text color (tcColor) */
+/* text color (.tc"Сolor") */
 .tcBlack {color: #000;}
 .tcWhite {color: #FFF;}
 .tcBrown {color: #795548;}
@@ -99,3 +101,242 @@ p, .p {margin: 0.4rem 0 1rem;}
 .tcPurple {color: #9C27B0;}
 .tcDeepPurple {color: #673AB7;}
 .tcIndigo {color: #3F51B5;}
+
+
+/* background Color */
+.bBlack{background: #000;}
+.bWhite{background: #FFF;}
+
+.bRed.t50{background: #FFEBEE;}
+.bRed.t100{background: #FFCDD2;}
+.bRed.t200{background: #EF9A9A;}
+.bRed.t300{background: #E57373;}
+.bRed.t400{background: #EF5350;}
+.bRed, 
+.bRed.t500{background: #F44336;}
+.bRed.t600{background: #E53935;}
+.bRed.t700{background: #D32F2F;}
+.bRed.t800{background: #C62828;}
+.bRed.t900{background: #B71C1C;}
+
+.bPink.t50{background: #FCE4EC;}
+.bPink.t100{background: #F8BBD0;}
+.bPink.t200{background: #F48FB1;}
+.bPink.t300{background: #F06292;}
+.bPink.t400{background: #EC407A;}
+.bPink, 
+.bPink.t500{background: #E91E63;}
+.bPink.t600{background: #D81B60;}
+.bPink.t700{background: #C2185B;}
+.bPink.t800{background: #AD1457;}
+.bPink.t900{background: #880E4F;}
+
+.bPurple.t50{background: #F3E5F5;}
+.bPurple.t100{background: #E1BEE7;}
+.bPurple.t200{background: #CE93D8;}
+.bPurple.t300{background: #BA68C8;}
+.bPurple.t400{background: #AB47BC;}
+.bPurple, 
+.bPurple.t500{background: #9C27B0;}
+.bPurple.t600{background: #8E24AA;}
+.bPurple.t700{background: #7B1FA2;}
+.bPurple.t800{background: #6A1B9A;}
+.bPurple.t900{background: #4A148C;}
+
+.bDeepPurple.t50{background: #EDE7F6;}
+.bDeepPurple.t100{background: #D1C4E9;}
+.bDeepPurple.t200{background: #B39DDB;}
+.bDeepPurple.t300{background: #9575CD;}
+.bDeepPurple.t400{background: #7E57C2;}
+.bDeepPurple, 
+.bDeepPurple.t500{background: #673AB7;}
+.bDeepPurple.t600{background: #5E35B1;}
+.bDeepPurple.t700{background: #512DA8;}
+.bDeepPurple.t800{background: #4527A0;}
+.bDeepPurple.t900{background: #311B92;}
+
+.bIndigo.t50{background: #E8EAF6;}
+.bIndigo.t100{background: #C5CAE9;}
+.bIndigo.t200{background: #9FA8DA;}
+.bIndigo.t300{background: #7986CB;}
+.bIndigo.t400{background: #5C6BC0;}
+.bIndigo, 
+.bIndigo.t500{background: #3F51B5;}
+.bIndigo.t600{background: #3949AB;}
+.bIndigo.t700{background: #303F9F;}
+.bIndigo.t800{background: #283593;}
+.bIndigo.t900{background: #1A237E;}
+
+.bBlue.t50{background: #E3F2FD;}
+.bBlue.t100{background: #BBDEFB;}
+.bBlue.t200{background: #90CAF9;}
+.bBlue.t300{background: #64B5F6;}
+.bBlue.t400{background: #42A5F5;}
+.bBlue, 
+.bBlue.t500{background: #2196F3;}
+.bBlue.t600{background: #1E88E5;}
+.bBlue.t700{background: #1976D2;}
+.bBlue.t800{background: #1565C0;}
+.bBlue.t900{background: #0D47A1;}
+
+.bLightBlue.t50{background: #E1F5FE;}
+.bLightBlue.t100{background: #B3E5FC;}
+.bLightBlue.t200{background: #81D4FA;}
+.bLightBlue.t300{background: #4FC3F7;}
+.bLightBlue.t400{background: #29B6F6;}
+.bLightBlue, 
+.bLightBlue.t500{background: #03A9F4;}
+.bLightBlue.t600{background: #039BE5;}
+.bLightBlue.t700{background: #0288D1;}
+.bLightBlue.t800{background: #0277BD;}
+.bLightBlue.t900{background: #01579B;}
+
+.bCyan.t50{background: #E0F7FA;}
+.bCyan.t100{background: #B2EBF2;}
+.bCyan.t200{background: #80DEEA;}
+.bCyan.t300{background: #4DD0E1;}
+.bCyan.t400{background: #26C6DA;}
+.bCyan, 
+.bCyan.t500{background: #00BCD4;}
+.bCyan.t600{background: #00ACC1;}
+.bCyan.t700{background: #0097A7;}
+.bCyan.t800{background: #00838F;}
+.bCyan.t900{background: #006064;}
+
+.bTeal.t50{background: #E0F2F1;}
+.bTeal.t100{background: #B2DFDB;}
+.bTeal.t200{background: #80CBC4;}
+.bTeal.t300{background: #4DB6AC;}
+.bTeal.t400{background: #26A69A;}
+.bTeal, 
+.bTeal.t500{background: #009688;}
+.bTeal.t600{background: #00897B;}
+.bTeal.t700{background: #00796B;}
+.bTeal.t800{background: #00695C;}
+.bTeal.t900{background: #004D40;}
+
+.bGreen.t50{background: #E8F5E9;}
+.bGreen.t100{background: #C8E6C9;}
+.bGreen.t200{background: #A5D6A7;}
+.bGreen.t300{background: #81C784;}
+.bGreen.t400{background: #66BB6A;}
+.bGreen, 
+.bGreen.t500{background: #4CAF50;}
+.bGreen.t600{background: #43A047;}
+.bGreen.t700{background: #388E3C;}
+.bGreen.t800{background: #2E7D32;}
+.bGreen.t900{background: #1B5E20;}
+
+.bLightGreen.t50{background: #F1F8E9;}
+.bLightGreen.t100{background: #DCEDC8;}
+.bLightGreen.t200{background: #C5E1A5;}
+.bLightGreen.t300{background: #AED581;}
+.bLightGreen.t400{background: #9CCC65;}
+.bLightGreen, 
+.bLightGreen.t500{background: #8BC34A;}
+.bLightGreen.t600{background: #7CB342;}
+.bLightGreen.t700{background: #689F38;}
+.bLightGreen.t800{background: #558B2F;}
+.bLightGreen.t900{background: #33691E;}
+
+.bLime.t50{background: #F9FBE7;}
+.bLime.t100{background: #F0F4C3;}
+.bLime.t200{background: #E6EE9C;}
+.bLime.t300{background: #DCE775;}
+.bLime.t400{background: #D4E157;}
+.bLime, 
+.bLime.t500{background: #CDDC39;}
+.bLime.t600{background: #C0CA33;}
+.bLime.t700{background: #AFB42B;}
+.bLime.t800{background: #9E9D24;}
+.bLime.t900{background: #827717;}
+
+.bYellow.t50{background: #FFFDE7;}
+.bYellow.t100{background: #FFF9C4;}
+.bYellow.t200{background: #FFF59D;}
+.bYellow.t300{background: #FFF176;}
+.bYellow.t400{background: #FFEE58;}
+.bYellow, 
+.bYellow.t500{background: #FFEB3B;}
+.bYellow.t600{background: #FDD835;}
+.bYellow.t700{background: #FBC02D;}
+.bYellow.t800{background: #F9A825;}
+.bYellow.t900{background: #F57F17;}
+
+.bAmber.t50{background: #FFF8E1;}
+.bAmber.t100{background: #FFECB3;}
+.bAmber.t200{background: #FFE082;}
+.bAmber.t300{background: #FFD54F;}
+.bAmber.t400{background: #FFCA28;}
+.bAmber, 
+.bAmber.t500{background: #FFC107;}
+.bAmber.t600{background: #FFB300;}
+.bAmber.t700{background: #FFA000;}
+.bAmber.t800{background: #FF8F00;}
+.bAmber.t900{background: #FF6F00;}
+
+.bOrange.t50{background: #FFF3E0;}
+.bOrange.t100{background: #FFE0B2;}
+.bOrange.t200{background: #FFCC80;}
+.bOrange.t300{background: #FFB74D;}
+.bOrange.t400{background: #FFA726;}
+.bOrange, 
+.bOrange.t500{background: #FF9800;}
+.bOrange.t600{background: #FB8C00;}
+.bOrange.t700{background: #F57C00;}
+.bOrange.t800{background: #EF6C00;}
+.bOrange.t900{background: #E65100;}
+
+.bDeepOrange.t50{background: #FBE9E7;}
+.bDeepOrange.t100{background: #FFCCBC;}
+.bDeepOrange.t200{background: #FFAB91;}
+.bDeepOrange.t300{background: #FF8A65;}
+.bDeepOrange.t400{background: #FF7043;}
+.bDeepOrange, 
+.bDeepOrange.t500{background: #FF5722;}
+.bDeepOrange.t600{background: #F4511E;}
+.bDeepOrange.t700{background: #E64A19;}
+.bDeepOrange.t800{background: #D84315;}
+.bDeepOrange.t900{background: #BF360C;}
+
+.bBrown.t50{background: #EFEBE9;}
+.bBrown.t100{background: #D7CCC8;}
+.bBrown.t200{background: #BCAAA4;}
+.bBrown.t300{background: #A1887F;}
+.bBrown.t400{background: #8D6E63;}
+.bBrown, 
+.bBrown.t500{background: #795548;}
+.bBrown.t600{background: #6D4C41;}
+.bBrown.t700{background: #5D4037;}
+.bBrown.t800{background: #4E342E;}
+.bBrown.t900{background: #3E2723;}
+
+.bGray.t50{background: #FAFAFA;}
+.bGray.t100{background: #F5F5F5;}
+.bGray.t200{background: #EEEEEE;}
+.bGray.t300{background: #E0E0E0;}
+.bGray.t400{background: #BDBDBD;}
+.bGray, 
+.bGray.t500{background: #9E9E9E;}
+.bGray.t600{background: #757575;}
+.bGray.t700{background: #616161;}
+.bGray.t800{background: #424242;}
+.bGray.t900{background: #212121;}
+
+.bBlueGrey.t50{background: #ECEFF1;}
+.bBlueGrey.t100{background: #CFD8DC;}
+.bBlueGrey.t200{background: #B0BEC5;}
+.bBlueGrey.t300{background: #90A4AE;}
+.bBlueGrey.t400{background: #78909C;}
+.bBlueGrey, 
+.bBlueGrey.t500{background: #607D8B;}
+.bBlueGrey.t600{background: #546E7A;}
+.bBlueGrey.t700{background: #455A64;}
+.bBlueGrey.t800{background: #37474F;}
+.bBlueGrey.t900{background: #263238;}
+
+.bWhite, .t50, .t100, .t200, .t300,
+.bLime.t400, .bLime.t500,
+.bAmber.t400, .bAmber.t500,
+.bYellow.t400, .bYellow.t500, .bYellow.t600{color: #202020;}
+.bBlack, .t400, .t500, .t600, .t700, .t800, .t900{color: #fff;}
