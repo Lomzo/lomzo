@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 /* reset style */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {border: 0; vertical-align: baseline; margin: 0; padding: 0;}
+html, body, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {border: 0; vertical-align: baseline; margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 ol, ul, li {list-style: none;}
 blockquote, q {quotes: none;}
@@ -23,6 +23,7 @@ b, strong {font-weight: 600;}
 ::-moz-selection {color: #fff; background: rgba(0,0,0,0.5);}
 
 html, body {font: 16px/1.6 "Roboto", sans-serif; color: #202020; background: #fff;}
+body {cursor: default;}
 
 
 /* headline style */
@@ -39,6 +40,24 @@ h6, .h6 {font-size: 1.7rem; line-height: 1.25;}
 /* paragraph */
 p, .p {margin: 0.4rem 0 1rem;}
 
+/* rarely used tags */
+
+abbr {border-bottom: 1px dashed; cursor: help; text-decoration: none;}
+area, article, aside, audio{}
+b {font-weight: bold;}
+blockquote {display: block;}
+caption {font-size: 1.2em;}
+code {padding: 1rem; font-family: monospace;}
+del, s, strike {text-decoration: line-through;}
+dl {margin: 1em 0;}
+dt {font-weight: bold;}
+dd {font-style: normal; margin: 0 0 0 0.5rem;}
+em, i, cite, em, var, address, dfn {font-style: italic;}
+fieldset {border: 0 none; padding: 0; margin: 0;}
+frame {border: 0 none;}
+hr {border-color: inherit; border-bottom: 0.2rem; margin: 0.5rem;}
+
+
 /* block align */
 .center, [align="center"]{text-align: center;}
 .left, [align="left"]{text-align: left;}
@@ -52,13 +71,23 @@ p, .p {margin: 0.4rem 0 1rem;}
 .smallFont {font-size: 0.85em;}
 .microFont {font-size: 0.7em;}
 
+font[size="1"] {font-size: 0.7em;}
+font[size="2"] {font-size: 0.85em;}
+font[size="3"] {font-size: 1em;}
+font[size="4"] {font-size: 1.15em;}
+font[size="5"] {font-size: 1.3em;}
+font[size="6"] {font-size: 1.45em;}
+font[size="+1"] {font-size: 1.15em;}
+font[size="-1"] {font-size: 0.85em;}
+
+
 /* font size (REM) */
 .fS5 {font-size: 1.5rem;}
 .fS4 {font-size: 1.4rem;}
 .fS3 {font-size: 1.3rem;}
 .fS2 {font-size: 1.2rem;}
 .fS1 {font-size: 1.1rem;}
-.fS0, .fS-0 {font-size: 1rem;}
+.fS0 {font-size: 1rem;}
 .fS-1 {font-size: 0.9rem;}
 .fS-2 {font-size: 0.8rem;}
 .fS-3 {font-size: 0.7rem;}
