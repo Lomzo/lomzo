@@ -49,6 +49,14 @@ blockquote {display: block;}
 caption {font-size: 1.2em;}
 code {padding: 1rem; font-family: monospace;}
 del, s, strike {text-decoration: line-through;}
+dl {margin: 1em 0;}
+dt {font-weight: bold;}
+dd {font-style: normal; margin: 0 0 0 0.5rem;}
+em, i, cite, em, var, address, dfn {font-style: italic;}
+fieldset {border: 0 none; padding: 0; margin: 0;}
+frame {border: 0 none;}
+hr {border-color: inherit; border-bottom: 0.2rem; margin: 0.5rem;}
+
 
 /* block align */
 .center, [align="center"]{text-align: center;}
