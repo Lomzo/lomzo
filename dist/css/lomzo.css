@@ -45,7 +45,10 @@ p, .p {margin: 0.4rem 0 1rem;}
 abbr {border-bottom: 1px dashed; cursor: help; text-decoration: none;}
 area, article, aside, audio{}
 b {font-weight: bold;}
-
+blockquote {display: block;}
+caption {font-size: 1.2em;}
+code {padding: 1rem; font-family: monospace;}
+del, s, strike {text-decoration: line-through;}
 
 /* block align */
 .center, [align="center"]{text-align: center;}
